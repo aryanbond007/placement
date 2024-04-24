@@ -1,0 +1,19 @@
+#layout-footer {
+  color: white;
+  height: 150px;
+  width: 100%;
+  background: #747f81;
+  background: linear-gradient(159deg, #747f81 14%, rgba(100, 99, 135, 0.95562) 71%, #282729 100%);
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  top: 100vh; }
+  #layout-footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none; }
+  #layout-footer a:hover {
+    color: green; }
+  #layout-footer .footer-nav ul {
+    list-style: none; }

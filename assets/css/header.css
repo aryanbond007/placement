@@ -1,0 +1,64 @@
+.header-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background: #747f81;
+  background: linear-gradient(159deg, #747f81 14%, rgba(100, 99, 135, 0.95562) 71%, #282729 100%); }
+  .header-container .nav-container {
+    position: relative;
+    display: inline-block;
+    top: 22px;
+    left: 15px; }
+    .header-container .nav-container img {
+      width: 70px; }
+  .header-container .nav-links-container {
+    list-style: none;
+    display: inline-block;
+    padding-left: 2rem; }
+    .header-container .nav-links-container .dropdown {
+      display: inline-block;
+      position: absolute; }
+    .header-container .nav-links-container .btn {
+      background-color: #110d50;
+      border: none;
+      color: white; }
+    .header-container .nav-links-container .btn:hover {
+      background-color: green; }
+    .header-container .nav-links-container .students-drop-down-btn {
+      position: relative;
+      left: 250px;
+      bottom: 28px; }
+    .header-container .nav-links-container #interview-drop-down-btn {
+      position: relative;
+      left: 320px;
+      bottom: 50px;
+      background-color: #0e0950;
+      border: none; }
+    .header-container .nav-links-container #interview-drop-down-btn:hover {
+      background-color: green; }
+    .header-container .nav-links-container .job-portal-btn {
+      position: relative;
+      left: 500px;
+      bottom: 28px; }
+    .header-container .nav-links-container .download-csv-btn {
+      position: relative;
+      left: 570px;
+      bottom: 30px; }
+    .header-container .nav-links-container .nav-link {
+      text-decoration: none;
+      color: rgba(22, 7, 10, 0.986);
+      font-size: 25px;
+      position: relative;
+      left: 70rem;
+      bottom: 31px;
+      margin-left: 29px;
+      text-transform: capitalize; }
+    .header-container .nav-links-container .nav-links {
+      text-decoration: none;
+      color: #1a092b;
+      font-size: 20px;
+      position: relative;
+      left: 65rem;
+      bottom: 30px;
+      margin-left: 10px; }
