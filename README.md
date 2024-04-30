@@ -1,6 +1,14 @@
 # Placement Cell App
 
 ## Introduction
+The "Placement Cell App" facilitates the management of the placement process :
+Student Management: Allows administrators to add, edit, and manage student profiles, including academic information and skills
+
+Interview Scheduling: Provides functionality to schedule interviews for students with potential employers or recruiters.
+
+Job Application Portal: Offers a platform to browse job openings and submit applications.
+
+Placement Process Management: Helps administrators track the progress of the placement process, including the number of students placed, pending interviews, and job offers
 
 Creating a **Placement Cell App** to maintain a database of all the student interviews. It is built using MongoDB, ExpressJS, EJS, Express-Partials-Layouts, GulpJs, Vanilla JS & implements RestFul CRUD APIs along with CRUD Operations.
 This web application helps students to store following details:
@@ -18,9 +26,9 @@ This web application helps students to store following details:
 
 ## 🔗 Important Links
 
-> ## Checkout the Website [Web Application](https://placement-cell-app.onrender.com/)
+> ## Checkout the Website [Web Application](https://placement-1-1am9.onrender.com)
 >
-> ## Checkout the Application Demo Video [YouTube](https://youtu.be/eduQPKFx2Uw)
+> ## Checkout the Application Demo Video.
 
 <br/>
 
@@ -148,39 +156,41 @@ This web application helps students to store following details:
 <p align="justify">
 
 ## Sign Up 
-<img src="./screenshots/Screenshot-Sign_in.png">
+
 
 ### Sign In
-<img src="./screenshots/Screenshot-add_interviews.png">
+<img src="./screenshots/Screenshot-Sign_in.png">
+
 
 ### Home Page
 <img src="/screenshots/Screenshot-home_page.png">
 
 ### Add Student
-<img src="/screenshots/Add_Student.png">
+
 
 ### Display Specific Student Details
-<img src="/screenshots/student_details.png">
+<img src="/screenshots/Screenshot-student_profile.png">
 
 ### Display List of all Students
-<img src="/screenshots/Students_List.png">
+<img src="/screenshots/Screenshot-List_of_students.png">
 
 ### Add Interview Slot
-<img src="/screenshots/Add_Interview.png">
+<img src="./screenshots/Screenshot-add_interviews.png">
+
 
 ### Schedule Interview of Student
-<img src="/screenshots/Schedule_Interview.png">
+<img src="/screenshots/Screenshot-schedule_interviews.png">
 
 ### List of all Interviews
-<img src="/screenshots/Interview_Lists.png">
+<img src="/screenshots/Screenshot-list_of_interviews.png">
 
 ### List of Students in an Interview Slot
-<img src="/screenshots/List_of_Student_in_Interview.png">
+
 
 ### List of all Students Details Along with Interview Details
-<img src="/screenshots/List-all-details.png">
+<img src="/screenshots/Screenshot-manage results.png">
 
 ### Profile Page
-<img src="/screenshots/ProfilePage.png">
+<img src="/screenshots/Screenshot-student_profile.png">
 
 </p>
