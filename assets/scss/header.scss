@@ -1,11 +1,13 @@
 .header-container{
-    position: absolute;
+        position: fixed;
+    z-index: 1000;
     top: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 120px;
     background: rgb(116,127,129);
 background: linear-gradient(159deg, rgba(116,127,129,1) 14%, rgba(100,99,135,0.9556197478991597) 71%, rgba(40,39,41,1) 100%);
-   
+}
     .nav-container{
         position: relative;
         display: inline-block;
@@ -15,11 +17,12 @@ background: linear-gradient(159deg, rgba(116,127,129,1) 14%, rgba(100,99,135,0.9
             width: 70px;
         }
     }
+
     
     .nav-links-container{
         list-style: none;
         display: inline-block;
-        padding-left: 2rem;
+        padding-left: 0rem;
 
         .dropdown{
             display: inline-block;
@@ -74,13 +77,14 @@ background: linear-gradient(159deg, rgba(116,127,129,1) 14%, rgba(100,99,135,0.9
 
         .nav-link{
             text-decoration: none;
-            color: rgba(22, 7, 10, 0.986);
-            font-size: 25px;
+            color: grey;
+            font-size: 23px;
             position: relative;
-            left: 70rem;
+            left: 37rem;
             bottom: 31px;
-            margin-left: 29px;
+            margin-left: 19px;
             text-transform: capitalize;
+            transition: color 0.3s ease, box-shadow 0.3s ease;
     
         }
         
@@ -90,12 +94,125 @@ background: linear-gradient(159deg, rgba(116,127,129,1) 14%, rgba(100,99,135,0.9
             color: rgb(26, 9, 43);
             font-size: 20px;
             position: relative;
-            left: 65rem;
+            left: 5rem;
             bottom: 30px;
             margin-left: 10px;
         }
 
    
     }
-}
 
+
+/* Fixed header with gradient background */
+// .header-container {
+//     position: fixed;
+//     z-index: 1000;
+//     top: 0;
+//     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+//     width: 100%;
+//     height: 120px;
+//     background: rgb(116, 127, 129);
+//     background: linear-gradient(159deg, rgba(116, 127, 129, 1) 14%, rgba(100, 99, 135, 0.95) 71%, rgba(40, 39, 41, 1) 100%);
+//     display: flex;   /* Use flexbox for easy alignment */
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 0 20px;  /* Adjust padding for spacing */
+// }
+
+// /* Navigation container with logo */
+// .nav-container {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .nav-container img {
+//     width: 70px;   /* Logo size */
+// }
+
+// /* Navigation links container */
+// .nav-links-container {
+//     list-style: none;
+//     display: flex;    /* Use flexbox for horizontal layout */
+//     gap: 25px;        /* Space between each link */
+// }
+
+// /* Dropdown container */
+// .dropdown {
+//     position: relative; /* Dropdown buttons will be positioned relative */
+// }
+
+// /* Common button styles */
+// .btn {
+//     background-color: rgb(17, 13, 80);
+//     border: none;
+//     color: white;
+//     padding: 8px 15px;    /* Add padding for consistent sizing */
+//     font-size: 18px;
+//     border-radius: 5px;
+//     transition: background-color 0.3s ease;
+//     cursor: pointer;
+// }
+
+// /* Hover effect for buttons */
+// .btn:hover {
+//     background-color: green;
+// }
+
+// /* Positioning for specific buttons (can be customized if needed) */
+// .students-drop-down-btn {
+//     /* Flexbox will take care of alignment */
+// }
+
+// #interview-drop-down-btn {
+//     background-color: rgb(14, 9, 80);
+//     border: none;
+// }
+
+// #interview-drop-down-btn:hover {
+//     background-color: green;
+// }
+
+// /* Styling for specific buttons */
+// .job-portal-btn,
+// .download-csv-btn {
+//     /* Positioning handled by flexbox; no need for relative */
+// }
+
+// /* Links inside the navbar */
+// .nav-link,
+// .nav-links {
+//     text-decoration: none;
+//     color: grey;
+//     font-size: 20px;
+//     transition: color 0.3s ease;
+//     padding: 8px 10px;
+// }
+
+// /* Hover effect for navbar links */
+// .nav-link:hover,
+// .nav-links:hover {
+//     color: white;
+// }
+
+// /* Adjusting padding to avoid content hiding behind the navbar */
+// .content {
+//     padding-top: 140px; /* Adjust this based on the height of the navbar */
+// }
+
+// /* Responsive design for smaller screens */
+// @media (max-width: 768px) {
+//     .header-container {
+//         flex-direction: column;  /* Stack the logo and links vertically */
+//         height: auto;
+//         padding: 20px;
+//     }
+
+//     .nav-links-container {
+//         flex-direction: column;  /* Stack links vertically */
+//         gap: 15px;
+//     }
+
+//     .btn {
+//         width: 100%;  /* Make buttons full width on mobile */
+//     }
+// }
